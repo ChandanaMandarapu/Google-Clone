@@ -1,5 +1,4 @@
 # Google-Clone
-Google Clone UI replica using Html and Css. Used all the knowledge of html and css applied the concepts like flex,position,box-model,fonts and many more to make a perfect clone of Google.
 
 Hello Everyone,
 
