@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333;
+}
+header,a{
+    color: #333;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    gap: 0.1rem;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.menu-button{
+    border-radius: 45%;
+    /* background-color: red; */
+}
+.menu-bar{
+    width: 20px;
+}
+.menu-button:hover{
+    background-color: rgba(100, 100, 100, 0.1);
+    cursor: pointer;
+}
+.profileimg{
+    border-radius: 50%;
+    margin-top:6px;
+    cursor: pointer;
+}
+.main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 585px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    border-radius: 44px;
+    border: 1px solid #d3d3d3;
+}
+input:hover{
+    box-shadow: 0 2px 3px 1px rgba(202,202,201,0.7);
+}
+input:focus{
+    outline: #333;
+}
+form{
+    position: relative;
+    margin-top: 30px;
+}
+.search{
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.camera{
+    width: 24px;
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    cursor: pointer;
+}
+.mic{
+    width: 30px;
+    position: absolute;
+    top: 6px;
+    left: 500px;
+    cursor: pointer;
+}
+.button{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center ;
+    gap: 0.7rem;
+}
+button{
+    border: 1px solid transparent ;
+    padding: 5px 12px;
+    background-color: #f5f4f4;
+    border-radius: 6px;
+}
+button:hover{
+    border: 1px solid #333;
+    box-shadow: 0 2px 3px 1px rgba(202,202,201,0.7);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #f5f4f4;
+}
+.footer{
+    border-bottom: 1px solid #d3d3d3;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+footer{
+    color: gray;
+}
+hr{
+    resize: horizontal;
+    color: #d3d3d3;
+}
+p{
+    padding-left: 13px;
+    color: #333;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 880px;
+}
