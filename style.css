@@ -144,3 +144,159 @@ p{
     justify-content: space-evenly;
     padding-left: 880px;
 }
+/* Media queries for devices with smaller screens */
+@media only screen and (max-width: 767px) {
+  nav {
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f4f4;
+    border-top: 1px solid #d3d3d3;
+  }
+  
+  li {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+  }
+  
+  .menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 1px;
+  }
+  
+  .profileimg {
+    margin-top: 12px;
+  }
+  
+  .main {
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+  }
+  
+  .camera {
+    top: 14px;
+    left: 85%;
+  }
+  
+  .mic {
+    top: 14px;
+    left: 77%;
+  }
+  
+  .button {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    display: none;
+  }
+  
+  .second {
+    display: none;
+  }
+}
+
+/* Media queries for devices with medium-sized screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    justify-content: center;
+  }
+  
+  li {
+    padding: 10px 8px;
+  }
+  
+  .menu-button {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .camera {
+    top: 14px;
+    left: 85%;
+  }
+  
+  .mic {
+    top: 14px;
+    left: 77%;
+  }
+}
+
+/* Media queries for devices with larger screens */
+@media only screen and (min-width: 1024px) {
+  nav {
+    height: 60px;
+    padding: 20px 10px;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    display: flex;
+    position: relative;
+    width: auto;
+    background-color: transparent;
+    border: none;
+  }
+  
+  li {
+    padding: 14px 12px;
+  }
+  
+  .menu-button {
+    display: none;
+  }
+  
+  .camera {
+    top: 10px;
+    left: 540px;
+  }
+  
+  .mic {
+    top: 6px;
+    left: 500px;
+  }
+  
+  .button {
+    width: auto;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items:
